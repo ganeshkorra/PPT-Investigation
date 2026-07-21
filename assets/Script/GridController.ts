@@ -194,6 +194,7 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
     private decorOriginalPosition: Vec3 = v3(0, 0, 0);
     private placementDecorOriginalScale: Vec3 = v3(1, 1, 1);
     private placementDecorOriginalSize: { width: number, height: number } = { width: 0, height: 0 };
+    private introBubbleTextPosition: Vec3 | null = null;
     private menuItemScales: Map<string, Vec3> = new Map();
     private menuItemVisuals: Map<Node, Node> = new Map();
     private menuItemVisualOffsets: Map<Node, Vec3> = new Map();
@@ -291,6 +292,18 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
         }
 
         this.decorationNode.setScale(this.decorOriginalScale);
+    }
+
+    private hideDecorationPlacementNodes() {
+        if (this.placementDecorationNode?.isValid) {
+            Tween.stopAllByTarget(this.placementDecorationNode);
+            this.placementDecorationNode.active = false;
+        }
+
+        if (this.decorationPlacementNode?.isValid) {
+            Tween.stopAllByTarget(this.decorationPlacementNode);
+            this.decorationPlacementNode.active = false;
+        }
     }
 
     private revealPlacementDecoration() {
@@ -566,7 +579,7 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
             GridController.globalTimerLabel.string = `Time: 60`;
         }
         if (this.selectionMenu) this.selectionMenu.active = false;
-        if (this.decorationNode) this.decorationNode.active = true;
+        if (this.decorationNode) this.decorationNode.active = false;
         if (this.introContainer && !GridController.isIntroPlaying) {
             this.introContainer.active = false;
             const introOpacity = this.introContainer.getComponent(UIOpacity);
@@ -682,6 +695,79 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
         }, 0);
     }
 
+    private getIntroBubbleTextNode(): Node | null {
+        if (!this.introBubble?.isValid) return null;
+        if (this.introBubble.getComponent(Label)) return this.introBubble;
+
+        return this.introBubble.children.find(child => child?.isValid && !!child.getComponent(Label)) || null;
+    }
+
+    private prepareIntroBubbleTextReveal() {
+        const textNode = this.getIntroBubbleTextNode();
+        if (!textNode?.isValid || textNode === this.introBubble) return;
+
+        Tween.stopAllByTarget(textNode);
+        this.introBubbleTextPosition = textNode.position.clone();
+        textNode.active = false;
+        textNode.setPosition(v3(this.introBubbleTextPosition.x, this.introBubbleTextPosition.y - 24, this.introBubbleTextPosition.z));
+
+        let labelOpacity = textNode.getComponent(UIOpacity);
+        if (!labelOpacity) labelOpacity = textNode.addComponent(UIOpacity);
+        labelOpacity.opacity = 0;
+    }
+
+    private revealIntroBubbleText() {
+        const textNode = this.getIntroBubbleTextNode();
+        if (!textNode?.isValid || textNode === this.introBubble) return;
+
+        const finalPos = this.introBubbleTextPosition || textNode.position.clone();
+        textNode.active = true;
+        Tween.stopAllByTarget(textNode);
+
+        let labelOpacity = textNode.getComponent(UIOpacity);
+        if (!labelOpacity) labelOpacity = textNode.addComponent(UIOpacity);
+
+        tween(textNode)
+            .to(0.45, { position: finalPos }, { easing: 'cubicOut' })
+            .start();
+
+        tween(labelOpacity)
+            .to(0.35, { opacity: 255 }, { easing: 'linear' })
+            .start();
+    }
+
+    private showIntroBubbleReveal() {
+        if (!this.introBubble?.isValid) return;
+
+        this.introBubble.active = true;
+        let bubbleOpacity = this.introBubble.getComponent(UIOpacity);
+        if (!bubbleOpacity) bubbleOpacity = this.introBubble.addComponent(UIOpacity);
+        bubbleOpacity.opacity = 0;
+
+        const finalPos = this.introBubble.position.clone();
+        this.introBubble.setPosition(v3(finalPos.x, finalPos.y - 30, finalPos.z));
+
+        tween(this.introBubble)
+            .to(1, { position: finalPos }, { easing: 'backOut' })
+            .call(() => {
+                const baseScale = this.introBubble.scale.clone();
+                Tween.stopAllByTarget(this.introBubble);
+                tween(this.introBubble)
+                    .repeatForever(
+                        tween()
+                            .to(0.7, { scale: v3(baseScale.x * 1.06, baseScale.y * 1.06, baseScale.z) }, { easing: 'sineInOut' })
+                            .to(0.7, { scale: baseScale }, { easing: 'sineInOut' })
+                    )
+                    .start();
+            })
+            .start();
+
+        tween(bubbleOpacity)
+            .to(0.45, { opacity: 255 }, { easing: 'linear' })
+            .call(() => this.revealIntroBubbleText())
+            .start();
+    }
+
     private setupIntroEmotionState() {
         if (this.introNormalCharacter) {
             this.introNormalCharacter.active = true;
@@ -700,6 +786,7 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
             let bubbleOpacity = this.introBubble.getComponent(UIOpacity);
             if (!bubbleOpacity) bubbleOpacity = this.introBubble.addComponent(UIOpacity);
             bubbleOpacity.opacity = 0;
+            this.prepareIntroBubbleTextReveal();
         }
         // if (this.introBubbleLabel) {
         //     this.introBubbleLabel.string = "";
@@ -711,7 +798,6 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
     }
 
     private switchToCryIntro() {
-        const bubbleText = "I was going through the photos";
         // Ensure normal fades out first; then show cry, then bubble after a short delay
         const startCryAndBubble = () => {
             if (this.introCryCharacter) {
@@ -724,39 +810,10 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
                 tween(cryOpacity)
                     .to(0.45, { opacity: 255 }, { easing: 'linear' })
                     .start();
-
-                // Show bubble a little after cry starts (so cry is visible first)
-                this.scheduleOnce(() => {
-                    if (!this.introBubble) return;
-                    this.introBubble.active = true;
-                    let bubbleOpacity = this.introBubble.getComponent(UIOpacity);
-                    if (!bubbleOpacity) bubbleOpacity = this.introBubble.addComponent(UIOpacity);
-                    bubbleOpacity.opacity = 0;
-
-                    const finalPos = this.introBubble.position.clone();
-                    this.introBubble.setPosition(v3(finalPos.x, finalPos.y - 30, finalPos.z));
-
-                    tween(this.introBubble)
-                        .to(1, { position: finalPos }, { easing: 'backOut' })
-                        .call(() => {
-                            // subtle pulse after slide completes
-                            const baseScale = this.introBubble.scale.clone();
-                            Tween.stopAllByTarget(this.introBubble);
-                            tween(this.introBubble)
-                                .repeatForever(
-                                    tween()
-                                        .to(0.7, { scale: v3(baseScale.x * 1.06, baseScale.y * 1.06, baseScale.z) }, { easing: 'sineInOut' })
-                                        .to(0.7, { scale: baseScale }, { easing: 'sineInOut' })
-                                )
-                                .start();
-                        })
-                        .start();
-
-                    tween(bubbleOpacity)
-                        .to(0.45, { opacity: 255 }, { easing: 'linear' })
-                        .start();
-                }, 0.18);
             }
+
+            // Show bubble a little after the intro state starts.
+            this.scheduleOnce(() => this.showIntroBubbleReveal(), 0.18);
         };
 
         if (this.introNormalCharacter) {
@@ -1445,7 +1502,7 @@ private manualStitchArc(g: Graphics, cx: number, cy: number, r: number, startDeg
         const anchorY = menuTrans ? menuTrans.anchorPoint.y : 0.5;
         const margin = 18;
         let targetX = this.node.worldPosition.x;
-        let targetY = this.node.worldPosition.y - 80;
+        let targetY = this.node.worldPosition.y - 90;
 
         if (canvasTrans) {
             const canvasWorld = canvas!.worldPosition;
@@ -1520,7 +1577,7 @@ private manualStitchArc(g: Graphics, cx: number, cy: number, r: number, startDeg
             GridController.isHandShowing = true;
             hand.active = true;
             hand.setSiblingIndex(999);
-            hand.setWorldPosition(v3(targetItem.worldPosition.x + 30, targetItem.worldPosition.y - 80, 0));
+            hand.setWorldPosition(v3(targetItem.worldPosition.x + 30, targetItem.worldPosition.y - 60, 0));
             hand.setScale(v3(0, 0, 0));
             tween(hand).to(0.2, { scale: GridController.initialHandScale }, { easing: 'backOut' }).call(() => this.playHandAnimation()).start();
             Tween.stopAllByTarget(targetItem);
@@ -1671,7 +1728,7 @@ private manualStitchArc(g: Graphics, cx: number, cy: number, r: number, startDeg
         ).call(() => {
             this.hideSelectedFrame();
             this.isSolved = true;
-            this.revealPlacementDecoration();
+            this.hideDecorationPlacementNodes();
             this.revealDecorationForPlacedItem();
             flyNode.name = "PlacedItem";
             const columnKey = this.getColumnKey();
@@ -1804,7 +1861,7 @@ private revealNewClues() {
 
         flyer.setWorldPosition(this.node.worldPosition);
         flyer.setScale(v3(0, 0, 1));
-        flyer.angle = -30;
+        flyer.angle = -90;
 
         tween(flyer)
             .delay(index * 0.2)
@@ -2128,7 +2185,7 @@ private executeVoiceCall() {
     
     // Move hand to the grid cell
     const targetPos = this.node.worldPosition;
-    hand.setWorldPosition(v3(targetPos.x + 50, targetPos.y - 90, 0));
+    hand.setWorldPosition(v3(targetPos.x + 50, targetPos.y - 60, 0));
 
     hand.setScale(v3(0, 0, 0));
     tween(hand)
