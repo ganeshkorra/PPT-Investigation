@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e2fcd57d-87b7-4370-9e98-a5e9469a08c9",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e2fcd57d-87b7-4370-9e98-a5e9469a08c9@6c48a",
+      "displayName": "ChatGPT Image Jul 2, 2026, 03_07_19 PM 1",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "e2fcd57d-87b7-4370-9e98-a5e9469a08c9",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "e2fcd57d-87b7-4370-9e98-a5e9469a08c9@f9941",
+      "displayName": "ChatGPT Image Jul 2, 2026, 03_07_19 PM 1",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -53.5,
+        "offsetY": 65,
+        "trimX": 76,
+        "trimY": 98,
+        "width": 765,
+        "height": 1209,
+        "rawWidth": 1024,
+        "rawHeight": 1535,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -382.5,
+            -604.5,
+            0,
+            382.5,
+            -604.5,
+            0,
+            -382.5,
+            604.5,
+            0,
+            382.5,
+            604.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            76,
+            1437,
+            841,
+            1437,
+            76,
+            228,
+            841,
+            228
+          ],
+          "nuv": [
+            0.07421875,
+            0.1485342019543974,
+            0.8212890625,
+            0.1485342019543974,
+            0.07421875,
+            0.9361563517915309,
+            0.8212890625,
+            0.9361563517915309
+          ],
+          "minPos": [
+            -382.5,
+            -604.5,
+            0
+          ],
+          "maxPos": [
+            382.5,
+            604.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e2fcd57d-87b7-4370-9e98-a5e9469a08c9@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "e2fcd57d-87b7-4370-9e98-a5e9469a08c9@6c48a"
+  }
+}
