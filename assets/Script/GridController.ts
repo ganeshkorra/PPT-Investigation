@@ -1502,7 +1502,7 @@ private manualStitchArc(g: Graphics, cx: number, cy: number, r: number, startDeg
         const anchorY = menuTrans ? menuTrans.anchorPoint.y : 0.5;
         const margin = 18;
         let targetX = this.node.worldPosition.x;
-        let targetY = this.node.worldPosition.y - 90;
+        let targetY = this.node.worldPosition.y - 70;
 
         if (canvasTrans) {
             const canvasWorld = canvas!.worldPosition;

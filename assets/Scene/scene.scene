@@ -375,7 +375,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 12,
-      "y": -119.792,
+      "y": -96.298,
       "z": 0
     },
     "_lrot": {
@@ -502,7 +502,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -281.813,
-      "y": 745.402,
+      "y": 814.539,
       "z": 0
     },
     "_lrot": {
@@ -611,7 +611,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 305.958,
-      "y": 745.402,
+      "y": 801.88,
       "z": 0
     },
     "_lrot": {
@@ -938,7 +938,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -10.159,
-      "y": 1711.277,
+      "y": 1681.412,
       "z": 0
     },
     "_lrot": {
@@ -1047,7 +1047,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -281.813,
-      "y": 802.894,
+      "y": 799.973,
       "z": 0
     },
     "_lrot": {
@@ -1265,7 +1265,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0.226,
-      "y": 561.093,
+      "y": 604.323,
       "z": 0
     },
     "_lrot": {
@@ -1374,7 +1374,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 286.162,
-      "y": 1605.637,
+      "y": 1527.737,
       "z": 0
     },
     "_lrot": {
@@ -1483,7 +1483,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -8.042,
-      "y": 1710.524,
+      "y": 1639.425,
       "z": 0
     },
     "_lrot": {
@@ -1727,7 +1727,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -95.828,
+      "y": -73.869,
       "z": 0
     },
     "_lrot": {
@@ -2673,7 +2673,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -246.5,
+      "x": -165.54999999999998,
       "y": 64.69999999999999,
       "z": 0
     },
@@ -2686,9 +2686,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.481,
-      "y": 0.481,
-      "z": 0.481
+      "x": 0.559,
+      "y": 0.559,
+      "z": 0.559
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -2741,7 +2741,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -523.381,
+      "y": -547.642,
       "z": 0
     },
     "_lrot": {
@@ -2753,9 +2753,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.922,
-      "y": 0.922,
-      "z": 0.922
+      "x": 0.833,
+      "y": 0.907,
+      "z": 0.833
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -2795,7 +2795,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -0.5,
+      "x": 208.75,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -2808,9 +2808,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.481,
-      "y": 0.481,
-      "z": 0.481
+      "x": 0.559,
+      "y": 0.559,
+      "z": 0.559
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -3088,7 +3088,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 27.30499999999995,
+      "y": -0.007,
       "z": 0
     },
     "_lrot": {
@@ -3126,8 +3126,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 419.7958984375,
-      "height": 183.86399999999998
+      "width": 412.23131103515624,
+      "height": 187.64999999999998
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3159,14 +3159,14 @@
     "_string": "Rightmost person \nis detective near\nthe door",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 50.7,
-    "_fontSize": 50.7,
+    "_actualFontSize": 48.9,
+    "_fontSize": 48.9,
     "_fontFamily": "Arial",
-    "_lineHeight": 56.4,
+    "_lineHeight": 57.5,
     "_overflow": 0,
     "_enableWrapText": false,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -3176,7 +3176,7 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
-    "_enableOutline": false,
+    "_enableOutline": true,
     "_outlineColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -3213,7 +3213,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 438,
+      "width": 516.9,
       "height": 336
     },
     "_anchorPoint": {
@@ -3249,7 +3249,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -3290,7 +3290,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 246.5,
+      "x": 583.05,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -3303,9 +3303,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.481,
-      "y": 0.481,
-      "z": 0.481
+      "x": 0.559,
+      "y": 0.559,
+      "z": 0.559
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -3583,7 +3583,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 27.304999999999893,
+      "y": -0.007,
       "z": 0
     },
     "_lrot": {
@@ -3621,8 +3621,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 416.3989562988281,
-      "height": 127.46399999999998
+      "width": 408.66160888671874,
+      "height": 130.14999999999998
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3654,14 +3654,14 @@
     "_string": "Person B is eating \na steak",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 50.7,
-    "_fontSize": 50.7,
+    "_actualFontSize": 48.9,
+    "_fontSize": 48.9,
     "_fontFamily": "Arial",
-    "_lineHeight": 56.4,
+    "_lineHeight": 57.5,
     "_overflow": 0,
     "_enableWrapText": false,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -3671,7 +3671,7 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
-    "_enableOutline": false,
+    "_enableOutline": true,
     "_outlineColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -3708,7 +3708,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 438,
+      "width": 516.9,
       "height": 336
     },
     "_anchorPoint": {
@@ -3744,7 +3744,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -3785,7 +3785,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 493.5,
+      "x": 957.35,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -3798,9 +3798,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.481,
-      "y": 0.481,
-      "z": 0.481
+      "x": 0.559,
+      "y": 0.559,
+      "z": 0.559
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -4078,7 +4078,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 27.304999999999836,
+      "y": -0.007,
       "z": 0
     },
     "_lrot": {
@@ -4116,8 +4116,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 403.6733093261719,
-      "height": 183.86399999999998
+      "width": 396.436572265625,
+      "height": 187.64999999999998
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4149,14 +4149,14 @@
     "_string": "One in the middle\nis a blonde\ngirl eating salad",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 50.7,
-    "_fontSize": 50.7,
+    "_actualFontSize": 48.9,
+    "_fontSize": 48.9,
     "_fontFamily": "Arial",
-    "_lineHeight": 56.4,
+    "_lineHeight": 57.5,
     "_overflow": 0,
     "_enableWrapText": false,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -4166,7 +4166,7 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
-    "_enableOutline": false,
+    "_enableOutline": true,
     "_outlineColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -4203,7 +4203,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 438,
+      "width": 516.9,
       "height": 336
     },
     "_anchorPoint": {
@@ -4239,7 +4239,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -4280,7 +4280,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 740.5,
+      "x": 1331.6499999999999,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -4293,9 +4293,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.481,
-      "y": 0.481,
-      "z": 0.481
+      "x": 0.559,
+      "y": 0.559,
+      "z": 0.559
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -4573,7 +4573,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 27.304999999999836,
+      "y": -0.007,
       "z": 0
     },
     "_lrot": {
@@ -4611,8 +4611,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 306.5320739746094,
-      "height": 127.46399999999998
+      "width": 299.6635009765625,
+      "height": 130.14999999999998
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4644,14 +4644,14 @@
     "_string": "Person D has \nred hair",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 50.7,
-    "_fontSize": 50.7,
+    "_actualFontSize": 48.9,
+    "_fontSize": 48.9,
     "_fontFamily": "Arial",
-    "_lineHeight": 56.4,
+    "_lineHeight": 57.5,
     "_overflow": 0,
     "_enableWrapText": false,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -4661,7 +4661,7 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
-    "_enableOutline": false,
+    "_enableOutline": true,
     "_outlineColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -4698,7 +4698,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 438,
+      "width": 516.9,
       "height": 336
     },
     "_anchorPoint": {
@@ -4734,7 +4734,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -4823,11 +4823,11 @@
       "height": 40
     },
     "_startAxis": 0,
-    "_paddingLeft": -104.5,
+    "_paddingLeft": -64,
     "_paddingRight": 0,
     "_paddingTop": -232.2,
     "_paddingBottom": 0,
-    "_spacingX": -191,
+    "_spacingX": -142.6,
     "_spacingY": -158.7,
     "_verticalDirection": 1,
     "_horizontalDirection": 0,
@@ -5103,7 +5103,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -0.001,
-      "y": 27.305,
+      "y": -0.007,
       "z": 0
     },
     "_lrot": {
@@ -5141,8 +5141,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 421.4164123535156,
-      "height": 179.626
+      "width": 418.82887573242186,
+      "height": 187.64999999999998
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5174,14 +5174,14 @@
     "_string": "Person A is cop\nand is investigating\nthe body",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 48.5,
-    "_fontSize": 48.5,
+    "_actualFontSize": 47,
+    "_fontSize": 47,
     "_fontFamily": "Arial",
-    "_lineHeight": 55.1,
+    "_lineHeight": 57.5,
     "_overflow": 0,
     "_enableWrapText": false,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -5191,7 +5191,7 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
-    "_enableOutline": false,
+    "_enableOutline": true,
     "_outlineColor": {
       "__type__": "cc.Color",
       "r": 0,
@@ -5228,7 +5228,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 436,
+      "width": 516.9,
       "height": 335
     },
     "_anchorPoint": {
@@ -5264,7 +5264,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -6334,7 +6334,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "Who killed Joe!",
+    "_string": "Who killed Joe?",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 82.3,
@@ -8116,7 +8116,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -213.265,
+      "x": -226.251,
       "y": 187.15,
       "z": 0
     },
@@ -9064,7 +9064,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 29.504,
+      "x": 4.537,
       "y": 187.15,
       "z": 0
     },
@@ -10006,7 +10006,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 275.282,
+      "x": 237.311,
       "y": 187.15,
       "z": 0
     },
@@ -10948,7 +10948,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 517.352,
+      "x": 470.381,
       "y": 187.15,
       "z": 0
     },
@@ -11890,7 +11890,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -212.817,
+      "x": -225.805,
       "y": -10.187,
       "z": 0
     },
@@ -12830,7 +12830,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 29.372,
+      "x": 4.405,
       "y": -9.447,
       "z": 0
     },
@@ -13770,7 +13770,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 275.156,
+      "x": 237.181,
       "y": -9.447,
       "z": 0
     },
@@ -14708,7 +14708,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 517.226,
+      "x": 470.251,
       "y": -9.447,
       "z": 0
     },
@@ -16340,7 +16340,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 179.85653686523438,
+      "width": 183.6579132080078,
       "height": 63
     },
     "_anchorPoint": {
@@ -16380,7 +16380,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -16585,7 +16585,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 141.06394958496094,
+      "width": 143.85777282714844,
       "height": 63
     },
     "_anchorPoint": {
@@ -16625,7 +16625,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -16672,8 +16672,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 270,
-      "height": 215
+      "width": 207.5,
+      "height": 85.3
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16778,7 +16778,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 31.876800537109375,
+      "width": 33.12959289550781,
       "height": 63
     },
     "_anchorPoint": {
@@ -16818,7 +16818,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -16913,7 +16913,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.350387573242188,
+      "width": 28.39678955078125,
       "height": 63
     },
     "_anchorPoint": {
@@ -16953,7 +16953,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -17048,7 +17048,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 33.50079345703125,
+      "width": 33.63999938964844,
       "height": 63
     },
     "_anchorPoint": {
@@ -17088,7 +17088,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -17183,7 +17183,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 32.06239318847656,
+      "width": 32.47999572753906,
       "height": 63
     },
     "_anchorPoint": {
@@ -17223,7 +17223,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -17318,7 +17318,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 27.422393798828125,
+      "width": 27.32958984375,
       "height": 63
     },
     "_anchorPoint": {
@@ -17358,7 +17358,7 @@
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "6b29edab-326d-468a-9241-57b02a2df2bd",
+      "__uuid__": "0e93ed50-1557-48d1-9994-767f6178c8aa",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
