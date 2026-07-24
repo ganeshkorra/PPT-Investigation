@@ -7442,7 +7442,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "2",
+    "_name": "6",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -7913,7 +7913,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "21",
+    "_name": "5",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -8863,7 +8863,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "1",
+    "_name": "9",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -9334,7 +9334,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "32",
+    "_name": "8",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -9805,7 +9805,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "1",
+    "_name": "9",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -11218,7 +11218,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "6",
+    "_name": "8",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -12601,7 +12601,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 1071.514,
-      "y": 296.299,
+      "y": 285.015,
       "z": 0
     },
     "_lrot": {
@@ -13098,7 +13098,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "6",
+    "_name": "10",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -13274,7 +13274,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "2",
+    "_name": "4",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -13541,7 +13541,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 1071.514,
-      "y": 296.299,
+      "y": 155.254,
       "z": 0
     },
     "_lrot": {
@@ -14036,7 +14036,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "2",
+    "_name": "10",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -14479,7 +14479,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 1071.514,
-      "y": 296.299,
+      "y": 35.367,
       "z": 0
     },
     "_lrot": {
@@ -15613,7 +15613,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "6",
+    "_name": "3",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -15789,7 +15789,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "3",
+    "_name": "2",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {

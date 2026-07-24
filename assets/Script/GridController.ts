@@ -256,11 +256,7 @@ highlightBar: ProgressBar = null!; // Link this to the 'Highlight Text' node in 
     }
 
     private getMenuItemCompletionKey(item: Node): string {
-        const groupKey = this.getSelectionMenuGroupKey();
-        const itemKey = this.getSpriteKey(this.getItemSpriteFrame(item)) || item.name;
-
-        if (!groupKey || !itemKey) return "";
-        return `${groupKey}::${itemKey}`;
+        return this.getSpriteKey(this.getItemSpriteFrame(item)) || item.name || "";
     }
 
     private getColumnKey(): string {
