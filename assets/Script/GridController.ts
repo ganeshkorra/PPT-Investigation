@@ -2181,7 +2181,7 @@ private executeVoiceCall() {
     
     // Move hand to the grid cell
     const targetPos = this.node.worldPosition;
-    hand.setWorldPosition(v3(targetPos.x + 50, targetPos.y - 60, 0));
+    hand.setWorldPosition(v3(targetPos.x + 50, targetPos.y - 80, 0));
 
     hand.setScale(v3(0, 0, 0));
     tween(hand)
