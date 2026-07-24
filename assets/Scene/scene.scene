@@ -261,8 +261,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 12.485,
-      "y": -11.469,
+      "x": 11.836,
+      "y": -55.03,
       "z": 0
     },
     "_lrot": {
@@ -274,9 +274,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.746,
-      "y": 0.746,
-      "z": 0.746
+      "x": 0.74,
+      "y": 0.74,
+      "z": 0.74
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -286,7 +286,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": "31mM3DiepOeK7BsX4vu+KZ"
+    "_id": "2azfd+HqZGQYJT5VJeoZ21"
   },
   {
     "__type__": "cc.UITransform",
@@ -300,15 +300,15 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 20000,
-      "height": 20000
+      "width": 3840,
+      "height": 2160
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
       "y": 0.5
     },
-    "_id": "bbkxgmfphIC7uujQmP2ebl"
+    "_id": "efz0z0dSNL859YezDR68te"
   },
   {
     "__type__": "cc.Sprite",
@@ -326,17 +326,17 @@
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
-      "g": 207,
-      "b": 207,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+      "__uuid__": "178e008b-d43b-43ce-abb2-fcc3dbfe5c30@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -347,7 +347,7 @@
     "_isTrimmedMode": true,
     "_useGrayscale": false,
     "_atlas": null,
-    "_id": "f4jJpsSs1LdYgUHyzKfcYB"
+    "_id": "19NsZvPD9MRqociR7H5B9p"
   },
   {
     "__type__": "cc.Node",
@@ -1863,7 +1863,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -456.222,
-      "y": -10.187,
+      "y": -3.1869999999999994,
       "z": 0
     },
     "_lrot": {
@@ -2673,7 +2673,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -165.54999999999998,
+      "x": -181.15,
       "y": 64.69999999999999,
       "z": 0
     },
@@ -2753,9 +2753,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.833,
-      "y": 0.907,
-      "z": 0.833
+      "x": 0.892,
+      "y": 0.971,
+      "z": 0.892
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -2795,7 +2795,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 208.75,
+      "x": 193.14999999999998,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -3126,7 +3126,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 412.23131103515624,
+      "width": 455.20390625,
       "height": 187.64999999999998
     },
     "_anchorPoint": {
@@ -3159,8 +3159,8 @@
     "_string": "Rightmost person \nis detective near\nthe door",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 48.9,
-    "_fontSize": 48.9,
+    "_actualFontSize": 54,
+    "_fontSize": 54,
     "_fontFamily": "Arial",
     "_lineHeight": 57.5,
     "_overflow": 0,
@@ -3290,7 +3290,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 583.05,
+      "x": 567.4499999999999,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -3621,7 +3621,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 408.66160888671874,
+      "width": 451.2618896484375,
       "height": 130.14999999999998
     },
     "_anchorPoint": {
@@ -3654,8 +3654,8 @@
     "_string": "Person B is eating \na steak",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 48.9,
-    "_fontSize": 48.9,
+    "_actualFontSize": 54,
+    "_fontSize": 54,
     "_fontFamily": "Arial",
     "_lineHeight": 57.5,
     "_overflow": 0,
@@ -3785,7 +3785,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 957.35,
+      "x": 941.7499999999999,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -4116,7 +4116,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 396.436572265625,
+      "width": 437.76195068359374,
       "height": 187.64999999999998
     },
     "_anchorPoint": {
@@ -4149,8 +4149,8 @@
     "_string": "One in the middle\nis a blonde\ngirl eating salad",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 48.9,
-    "_fontSize": 48.9,
+    "_actualFontSize": 54,
+    "_fontSize": 54,
     "_fontFamily": "Arial",
     "_lineHeight": 57.5,
     "_overflow": 0,
@@ -4280,7 +4280,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 1331.6499999999999,
+      "x": 1316.0499999999997,
       "y": 64.19999999999999,
       "z": 0
     },
@@ -4611,7 +4611,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 299.6635009765625,
+      "width": 330.8959228515625,
       "height": 130.14999999999998
     },
     "_anchorPoint": {
@@ -4644,8 +4644,8 @@
     "_string": "Person D has \nred hair",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 48.9,
-    "_fontSize": 48.9,
+    "_actualFontSize": 54,
+    "_fontSize": 54,
     "_fontFamily": "Arial",
     "_lineHeight": 57.5,
     "_overflow": 0,
@@ -4823,7 +4823,7 @@
       "height": 40
     },
     "_startAxis": 0,
-    "_paddingLeft": -64,
+    "_paddingLeft": -79.6,
     "_paddingRight": 0,
     "_paddingTop": -232.2,
     "_paddingBottom": 0,
@@ -5141,7 +5141,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 418.82887573242186,
+      "width": 481.17787475585936,
       "height": 187.64999999999998
     },
     "_anchorPoint": {
@@ -5174,8 +5174,8 @@
     "_string": "Person A is cop\nand is investigating\nthe body",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 47,
-    "_fontSize": 47,
+    "_actualFontSize": 54,
+    "_fontSize": 54,
     "_fontFamily": "Arial",
     "_lineHeight": 57.5,
     "_overflow": 0,
@@ -7161,8 +7161,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
+      "x": -125.841,
+      "y": -406.866,
       "z": 0
     },
     "_lrot": {
@@ -7174,9 +7174,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.244,
-      "y": 0.244,
-      "z": 0.367
+      "x": 0.289,
+      "y": 0.289,
+      "z": 0.435
     },
     "_mobility": 0,
     "_layer": 33554432,
@@ -7230,7 +7230,10 @@
       "b": 255,
       "a": 255
     },
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "860e2cb6-ad38-4da7-820f-ebdc9cf820e9@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
     "_type": 0,
     "_fillType": 0,
     "_sizeMode": 0,
@@ -7615,7 +7618,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "3",
+    "_name": "7",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -8084,7 +8087,7 @@
     "component": "",
     "_componentId": "21c39/DsMtBjp+bLuEqVwqn",
     "handler": "onMenuItemClicked",
-    "customEventData": "1"
+    "customEventData": "6"
   },
   {
     "__type__": "cc.Node",
@@ -8563,7 +8566,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "3",
+    "_name": "7",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -8737,7 +8740,7 @@
     "component": "",
     "_componentId": "21c39/DsMtBjp+bLuEqVwqn",
     "handler": "onMenuItemClicked",
-    "customEventData": "1"
+    "customEventData": "6"
   },
   {
     "__type__": "cc.UITransform",
@@ -10449,7 +10452,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "3",
+    "_name": "7",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -11391,7 +11394,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "3",
+    "_name": "7",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -11686,7 +11689,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "1",
+    "_name": "4",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -11891,7 +11894,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -225.805,
-      "y": -10.187,
+      "y": -3.1869999999999994,
       "z": 0
     },
     "_lrot": {
@@ -12155,7 +12158,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "6",
+    "_name": "3",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -12831,7 +12834,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 4.405,
-      "y": -9.447,
+      "y": -2.446999999999999,
       "z": 0
     },
     "_lrot": {
@@ -13771,7 +13774,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 237.181,
-      "y": -9.447,
+      "y": -2.446999999999999,
       "z": 0
     },
     "_lrot": {
@@ -14676,11 +14679,11 @@
     "component": "",
     "_componentId": "21c39/DsMtBjp+bLuEqVwqn",
     "handler": "onMenuItemClicked",
-    "customEventData": "5"
+    "customEventData": "10"
   },
   {
     "__type__": "cc.Node",
-    "_name": "5",
+    "_name": "10",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -14709,7 +14712,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 470.251,
-      "y": -9.447,
+      "y": -2.446999999999999,
       "z": 0
     },
     "_lrot": {
@@ -14828,7 +14831,7 @@
     "introCryCharacter": null,
     "introBubble": null,
     "tutorialStartCell": "",
-    "correctItemName": "5",
+    "correctItemName": "10",
     "heartSprites": [
       {
         "__id__": 169
@@ -14949,7 +14952,7 @@
     "component": "",
     "_componentId": "21c39/DsMtBjp+bLuEqVwqn",
     "handler": "onGridCellClicked",
-    "customEventData": "5"
+    "customEventData": "10"
   },
   {
     "__type__": "cc.AudioSource",
@@ -14969,7 +14972,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "5",
+    "_name": "10",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -15141,7 +15144,7 @@
     "component": "",
     "_componentId": "21c39/DsMtBjp+bLuEqVwqn",
     "handler": "onMenuItemClicked",
-    "customEventData": "5"
+    "customEventData": "10"
   },
   {
     "__type__": "cc.Node",
@@ -15317,7 +15320,7 @@
     "component": "",
     "_componentId": "21c39/DsMtBjp+bLuEqVwqn",
     "handler": "onMenuItemClicked",
-    "customEventData": "5"
+    "customEventData": "10"
   },
   {
     "__type__": "cc.UITransform",
@@ -16301,8 +16304,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
+      "x": -0.001,
+      "y": 21.239,
       "z": 0
     },
     "_lrot": {
